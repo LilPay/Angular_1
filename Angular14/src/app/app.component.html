@@ -1,0 +1,42 @@
+<div class="app">
+  <header>
+    <section>
+
+      <div class="reseau">
+        <img src="../assets/images/test/youtube.png" alt="" width="40">
+      </div>
+
+      <div class="titre-logo">
+        <img src="../assets/images/test/plume-doie.png" alt="" width="60">
+      <h2> {{ title }}</h2>
+      </div>
+      
+      <div class="login">
+        <button><span class="material-icons">account_circle</span></button>
+      </div>
+    </section>
+    <nav>
+      <ul>
+        <li><a routerLink="/home" routerLinkActive="active-link">Accueil</a></li>
+        <li><a routerLink="/about" routerLinkActive="active-link">Qui sommes-nous</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active-link">Prétentions</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active-link">FAQ</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active-link">Manifeste</a></li>
+        <li><a routerLink="/contact" routerLinkActive="active-link">Plan d'action</a></li>
+        <!--<li><a routerLink="/login" routerLinkActive="active-link">FAQ</a></li>-->
+        <!--<li><a routerLink="/signup" routerLinkActive="active-link">Signup</a></li>-->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer>
+    <a href="#">Copyright © 2022 - www.nomdusite.com </a> -
+    <a href="#">Mentions légales </a> -
+    <a href="#">CGU</a>
+  </footer>
+
+</div>
